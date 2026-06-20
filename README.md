@@ -170,29 +170,6 @@ Open:
 http://localhost:3000
 ```
 
----
-
-## Screenshots
-
-### Dashboard
-
-* Hero Section
-* Weekly Activity
-* Course Progress Cards
-
-### Achievements
-
-* Achievement Tracking
-* Locked & Unlocked Badges
-
-### Settings
-
-* User Profile
-* Learning Preferences
-* Notification Settings
-
----
-
 ## Key Highlights
 
 * Modern UI/UX
