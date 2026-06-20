@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Learning Dashboard
 
-## Getting Started
+A modern and responsive Learning Dashboard built using Next.js, Tailwind CSS, Supabase, and Framer Motion.
 
-First, run the development server:
+## Features
+
+### Dashboard
+
+* Dynamic course cards fetched from Supabase
+* Animated progress bars
+* Hero section with learning streak
+* Weekly activity tracker
+* Responsive layout
+
+### Achievements Page
+
+* Achievement cards loaded from Supabase
+* Trophy indicators
+* Locked and unlocked achievement states
+* Responsive grid layout
+
+### Settings Page
+
+* User profile section
+* Learning preferences
+* Daily learning goals
+* Notification settings
+
+### UI Enhancements
+
+* Smooth animations using Framer Motion
+* Responsive sidebar navigation
+* Mobile bottom navigation
+* Dark modern dashboard theme
+* Loading screen support
+
+## Tech Stack
+
+* Next.js 15 (App Router)
+* TypeScript
+* Tailwind CSS
+* Supabase
+* Framer Motion
+* Lucide React Icons
+
+## Project Structure
+
+```text
+src/
+ ├── app/
+ │   ├── achievements/
+ │   ├── settings/
+ │   ├── components/
+ │   ├── lib/
+ │   ├── page.tsx
+ │   └── loading.tsx
+```
+
+## Environment Variables
+
+Create a `.env.local` file in the project root:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/srishtiagarwal19/Learning-dashboard.git
+```
+
+Navigate to the project:
+
+```bash
+cd Learning-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+The project can be deployed on Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+### Environment Variables Required on Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+Srishti Agarwal
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is developed for educational and learning purposes.
